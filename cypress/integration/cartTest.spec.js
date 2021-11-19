@@ -28,4 +28,8 @@ describe('Cart Page', () => {
       ]);
     });
   });
+  it('should have any result',  () => {
+    cy.visit('/');
+    cy.get('').should('b')
+  });
 });
